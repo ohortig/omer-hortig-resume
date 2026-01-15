@@ -1,0 +1,130 @@
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.45in]{geometry}
+\usepackage{newtxtext,newtxmath}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{array}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\tabcolsep}{0pt}
+\renewcommand{\labelitemi}{\small$\bullet$}
+\setlist[itemize]{leftmargin=*,itemsep=1pt,topsep=1pt,parsep=0pt,partopsep=0pt}
+\renewcommand{\baselinestretch}{0.97}
+
+\titleformat{\section}{\large\bfseries\uppercase}{ }{0pt}{}
+\titlespacing{\section}{0pt}{4pt}{0pt}
+
+\newcommand{\sectionline}{\vspace{1pt}\hrule\vspace{4pt}}
+
+\newcommand{\resumeSubheading}[4]{%
+  \vspace{2pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
+    \textbf{#1} & \textbf{#2} \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}
+}
+
+\newcommand{\resumeItem}[1]{\item #1}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}}
+
+\begin{document}
+\pagenumbering{gobble}
+\begin{center}
+  {\huge \textbf{Omer Hortig}\hspace{4pt}\href{https://www.linkedin.com/in/omer-hortig}{\raisebox{-1pt}{\includegraphics[height=12pt]{linkedIn_logo.png}}}}\\[2pt]
+  {New York, NY $\bullet$ \href{mailto:omer.hortig@gmail.com}{omer.hortig@gmail.com} $\bullet$ (201) 294-9914}\\[-1pt]
+\end{center}
+
+\section*{EDUCATION}
+\sectionline
+\resumeSubheading
+  {NEW YORK UNIVERSITY}{New York, NY}
+  {B.A. in Economics \& Computer Science; Minor in Business Studies}{2022 -- 2026}
+\resumeItemListStart
+  \resumeItem{GPA: 3.84}
+  \resumeItem{Activities: President AE$\Pi$ Fraternity, Director of Technology at SJBA, Chabad Board Member, Intramural Basketball}
+  \resumeItem{Relevant Courses: Microeconomic Analysis; Money \& Banking; Data Structures \& Algorithms; Computer Systems; Operating Systems; Basic Algorithms; Math for Economics I, II, III; Discrete Mathematics; Linear Algebra; Analytical Statistics; Financial Accounting}
+\resumeItemListEnd
+
+\section*{WORK EXPERIENCE}
+
+\sectionline
+\resumeSubheading
+  {PALANTIR TECHNOLOGIES}{New York, NY}
+  {Incoming Forward Deployed Engineer, Commercial}{August 2026 -- Present}
+
+\resumeSubheading
+  {RILLA}{New York, NY}
+  {Software Engineer Intern}{June 2025 -- August 2025}
+\resumeItemListStart
+  \resumeItem{Developed integrations with customer CRM and dialer platforms (e.g. Salesforce, Lasso), directly driving \$400k+ in new ARR}
+  \resumeItem{Enabled Rilla's expansion into new verticals (Home Building, Auto) by embedding with customers--onsite and remotely--to translate real-world workflows into technical requirements and iteratively engineer solutions based on feedback}
+  \resumeItem{Built and deployed full-stack features like Rilla Conversation Outcomes using REST APIs, React, Node.js, Express, and AWS infrastructure including Lambda, SNS, SQS, EventBridge, Aurora DB, API Gateway, and Parameter Store}
+\resumeItemListEnd
+
+\resumeSubheading
+  {SOMA}{New York, NY}
+  {Product Engineer Intern}{September 2024 -- November 2024}
+\resumeItemListStart
+  \resumeItem{Engaged with 30+ customers to understand their needs and drive product enhancements, increasing feature adoption by 35\%}
+  \resumeItem{Accelerated content creation timelines by 80\% and reduced hallucination by 100\% in two months by leading the creation of a content engine leveraging few-shot prompting, RAG, and agentic function calling; refined product roadmap}
+\resumeItemListEnd
+
+\resumeSubheading
+  {MORGAN STANLEY}{New York, NY}
+  {Technology Summer Analyst}{June 2024 -- August 2024}
+\resumeItemListStart
+  \resumeItem{Led requirement setup, architecture planning, and data modeling for a Hadoop datalake to Snowflake cloud migration}
+  \resumeItem{Collaborated with cross-functional teams to create a comprehensive mapping on Excel and Microsoft Visio of the data pipeline from IBM DB2 to 30 Tableau and Dataiku dashboards; extracted \& transformed millions of records from Hadoop using SQL}
+  \resumeItem{Presented two-stage workflow data pipeline modernization plan eliminating batch uploads to Head of Services Platform}
+\resumeItemListEnd
+
+\resumeSubheading
+  {AMDOCS}{Jersey City, NJ}
+  {Software Engineer Intern}{June 2023 -- August 2023}
+\resumeItemListStart
+  \resumeItem{Developed a Generative AI enabled mobile app using the React Native framework; connected app to various external APIs}
+  \resumeItem{Handled mobile app development timeline from conception, UI/UX design, backend programming utilizing Node.js, Supabase database integration, to proper beta testing procedures through App Store Connect \& TestFlight}
+\resumeItemListEnd
+
+\section*{LEADERSHIP EXPERIENCE}
+\sectionline
+\resumeSubheading
+  {BESSEMER VENTURE PARTNERS}{New York, NY}
+  {Fellow}{June 2025 -- August 2025}
+\resumeItemListStart
+  \resumeItem{Selected ($<1\%$ acceptance rate) as a Bessemer Fellow, gaining mentorship from BVP partners on startup ideation, founder leadership, and raising venture capital while interning at a BVP-backed startup}
+\resumeItemListEnd
+
+\resumeSubheading
+  {COMMA CAPITAL}{New York, NY}
+  {Fellow}{June 2025 -- August 2025}
+\resumeItemListStart
+  \resumeItem{Receive 1:1 mentorship from founders while participating in discussions with leaders at OpenAI, A16z, Unify, and more}
+\resumeItemListEnd
+
+\resumeSubheading
+  {STERN JEWISH BUSINESS ASSOCIATION}{New York, NY}
+  {Director of Technology}{June 2025 -- Present}
+\resumeItemListStart
+  \resumeItem{Lead technology panels and tech recruitment information events, while developing \& maintaining club website from scratch}
+\resumeItemListEnd
+
+\resumeSubheading
+  {ALPHA EPSILON PI FRATERNITY}{New York, NY}
+  {President}{December 2023 -- December 2024}
+\resumeItemListStart
+  \resumeItem{Head of all fraternity operations including budget, recruitment, philanthropy, Jewish life, and co-hosted events}
+  \resumeItem{Managed over \$100,000 in annual budget allocation; organized philanthropic efforts totaling over \$7,500 a semester}
+\resumeItemListEnd
+
+\section*{PERSONAL}
+\sectionline
+\textbf{Skills:} Python, Java, C, JavaScript, Node.js, React, AWS, SQL, Full Stack Development, Leadership, Product Management\\
+\textbf{Languages:} Native in Hebrew and English, Certified Proficient in Spanish\\
+\textbf{Interests:} Tennis, Basketball, Technology, Community Service, Fashion, Music, Politics, Current Events, Stock Market, Photography
+
+\end{document}
